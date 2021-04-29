@@ -14,6 +14,7 @@ class ViewController: UIViewController , UITextFieldDelegate, MKMapViewDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         dispMap.delegate = self
         
         //mapView.delegate = self
